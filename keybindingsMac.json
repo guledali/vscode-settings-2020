@@ -1,0 +1,25 @@
+// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaults
+[
+
+  {
+    "key": "ctrl+alt+R ",
+    "command": "fileutils.renameFile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+D ",
+    "command": "fileutils.removeFile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+M ",
+    "command": "fileutils.moveFile",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+F ",
+    "command": "extension.createFolder",
+    "when": "editorTextFocus"
+  }
+]

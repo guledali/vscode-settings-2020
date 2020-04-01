@@ -1,0 +1,71 @@
+{
+  "window.zoomLevel": 2,
+  "editor.minimap.renderCharacters": false,
+
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": false,
+    "vim.hlsearch": true,
+    "vim.sneak": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["J"],
+        "after": ["g", "J"]
+      },
+      {
+        "before": ["0"],
+        "after": ["0", "w"]
+      },
+      // {
+      //   "before": ["K"],
+      //   "after": ["3", "k"]
+      // },
+      // {
+      //   "before": ["W"],
+      //   "after": ["3", "w"]
+      // },
+      // {
+      //   "before": ["B"],
+      //   "after": ["3", "b"]
+      // }
+    ],
+    "vim.visualModeKeyBindings": [
+      {
+        "before": ["<C-c>"],
+        "after": ["y"]
+      },
+      {
+        "before": ["<C-v>"],
+        "after":  ["p"]
+      }
+    ],
+    "vim.insertModeKeyBindings": [
+      {
+          "before": ["<C-v>"],
+          "after": [],
+          "commands": "editor.action.clipboardPasteAction",
+
+      }
+    ],
+    // "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+
+    "html.mirrorCursorOnMatchingTag":false,
+
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.tabSize": 2,
+    "window.titleBarStyle": "native",
+    "vetur.validation.template": false,
+    "workbench.colorTheme": "Solarized Dark",
+    "gitlens.blame.avatars": false,
+    "gitlens.hovers.avatars": false,
+    "gitlens.views.compare.avatars": false,
+    "gitlens.views.fileHistory.avatars": false,
+    "gitlens.views.lineHistory.avatars": false,
+    "gitlens.views.repositories.avatars": false,
+    "gitlens.views.search.avatars": false,
+    "workbench.iconTheme": "material-icon-theme"
+ }
